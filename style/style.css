@@ -98,6 +98,12 @@ header .intro-container__social a {
   color: #B469FF;
 }
 
+@media screen and (max-width: 768px) {
+  header .intro-container__title {
+    font-size: 1.5rem;
+  }
+}
+
 @-webkit-keyframes showHead {
   100% {
     opacity: 1;
@@ -205,6 +211,11 @@ header .intro-container__social a {
   }
   .course-content__wraps-box {
     margin: 2rem 0;
+    width: 100%;
+  }
+  .course-content__wraps-box img {
+    width: 100%;
+    height: 100%;
   }
 }
 
